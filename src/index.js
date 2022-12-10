@@ -4,14 +4,13 @@ import { Notify } from 'notiflix/build/notiflix-notify-aio';
 import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
 
-
 const refs = {
- searchForm: document.querySelector('#search-form'),
- gallery: document.querySelector('.gallery'),
- loadMoreBtn: document.querySelector('.button--loadMore')
-}
+  searchForm: document.querySelector('#search-form'),
+  gallery: document.querySelector('.gallery'),
+  loadMoreBtn: document.querySelector('.button--loadMore'),
+};
 
-
+console.log(refs);
 let query = '';
 let page = 1;
 let simpleLightBox;
