@@ -1,0 +1,14 @@
+.button--loadMore.is-hidden {
+  display: none;
+}
+
+.button--loadMore {
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 10px 50px;
+  display: block;
+  cursor: pointer;
+  background-color: rgb(14, 133, 224);
+  border: 1px solid rgb(28, 103, 169);
+}
